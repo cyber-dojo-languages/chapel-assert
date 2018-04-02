@@ -4,8 +4,11 @@ proc lifeTheUniverseAndEverything() {
   assert(answer() == 42);
 }
 
+proc greenTrafficLightPattern() {
+  return "All tests passed";
+}
+
 proc main() {
   lifeTheUniverseAndEverything();
-  // green-traffic light pattern...
-  writeln("All tests passed");
+  writeln(greenTrafficLightPattern());
 }
