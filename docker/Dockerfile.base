@@ -1,4 +1,4 @@
-FROM cyberdojofoundation/chapel:e5784e5
+FROM cyberdojofoundation/chapel:43e04a8
 LABEL maintainer=bradcray@gmail.com
 
 COPY red_amber_green.rb /usr/local/bin
